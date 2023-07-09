@@ -1,0 +1,2 @@
+# Python-Code-Samples--Basic-Programs-and-Games
+ This repository features Python code samples for diverse applications. It includes basic programs for calculations like area and discounts, as well as games such as Hangman. Additionally, it offers a valid CPF generator and a palindrome checker. These examples showcase fundamental Python programming concepts, with each file containing commented and user-friendly code. Users can easily understand and apply these functionalities in their own projects.
