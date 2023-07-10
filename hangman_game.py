@@ -3,7 +3,7 @@
 import random
 
 # List of words
-word_list = ["apple", "banana", "cherry", "orange", "grape", "lemon", "pear", "kiwi", "melon", "mango", "bottle"]
+word_list = ["apple", "banana", "cherry", "orange", "grape", "lemon", "pear", "kiwi", "melon", "mango", "bottle, car, bus, rain"]
 
 # Option to start the game
 option = input('Start a new game:\n[Y]yes\n[N]no\n=> ').upper()
@@ -52,10 +52,10 @@ while True:
             hidden_word += letter
         else:
             hidden_word += ' _ '
-    print('\nWord: ' + hidden_word)
-    print('Wrong letters: ' + ', '.join(wrong_letters))
     print('Wrong words: ' + ', '.join(wrong_words))
     print(f'Attempts used: {attempt}/{num_attempts}')
+    print('Wrong letters: ' + ', '.join(wrong_letters))
+    print('\nWord: ' + hidden_word)
 
     if hidden_word == secret_word:
         print(f'\nCongratulations, you guessed the word {secret_word}')
