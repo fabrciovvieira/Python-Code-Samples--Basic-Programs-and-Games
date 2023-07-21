@@ -7,7 +7,7 @@
 BMR = 10 * weight (kg) + 6.25 * height (cm) - 5 * age (year) + 5
 
 FOR WOMEN:
-TMB = 10 * weigth (kg) + 6.25 * height (cm) - 5 * age (year) - 161
+BMR = 10 * weigth (kg) + 6.25 * height (cm) - 5 * age (year) - 161
  '''
 
 
