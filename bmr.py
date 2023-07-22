@@ -25,14 +25,14 @@ weight_float = float(weight_str)
 
 while True: 
     gender = input('What is your gender ?\n[ F ] - Female\n[ M ] - Male\n-->  ').upper()
-        if gender == 'F':
-            bmr = 10 * weight_float + 6.25 * height_float - 5 * age - 161
-            break
-        elif gender == 'M':
-            bmr = 10 * weight_float + 6.25 * height_float - 5 * age + 5
-            break
-        else:
-            print('Invalid value entered, please enter only F or M')
+    if gender == 'F':
+        bmr = 10 * weight_float + 6.25 * height_float - 5 * age - 161
+        break
+    elif gender == 'M':
+        bmr = 10 * weight_float + 6.25 * height_float - 5 * age + 5
+        break
+    else:
+        print('Invalid value entered, please enter only F or M')
 
 
 print(f'Your daily Basal Metabolic Rate (BMR) is {bmr} calories per day ')
